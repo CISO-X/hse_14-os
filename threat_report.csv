@@ -1,0 +1,6 @@
+source,indicator,details,severity,action
+suricata,185.10.10.10,Possible Malware C2 Traffic,1,notify
+suricata,91.200.12.34,Nmap Scan Detected,2,block IP
+suricata,suspicious-domain.com,frequent DNS request,2,block domain
+vulners,CVE-2024-0001,Critical vulnerability,9,patch system
+vulners,CVE-2024-0002,High vulnerability,8,update software
